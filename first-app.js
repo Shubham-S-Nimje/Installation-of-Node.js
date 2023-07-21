@@ -4,10 +4,10 @@
 
 // fs.writeFileSync('hello.txt','Hello from node.js')
 
-num1 = 6;
-num2 = 8;
+// num1 = 6;
+// num2 = 8;
 
-const product = () => {
-  return(console.log(num1*num2))
-}
-product()
+// const product = () => {
+//   return(console.log(num1*num2))
+// }
+// product()
