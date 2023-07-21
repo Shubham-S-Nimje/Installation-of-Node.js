@@ -7,7 +7,7 @@ const requestHandler = (req, res) => {
   if (url === "/") {
     const displayMsg = fs.readFileSync("data.txt", "utf8");
     // console.log(displayMsg.toString())
-
+    
     res.setHeader("Content-type", "text/html");
     res.write("<html>");
     res.write("<head><Title>My First Page</Title></head>");
